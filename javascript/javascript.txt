@@ -1,0 +1,44 @@
+variable----------
+In java script we want to store value so at the we have to need a varibale 
+In java script variable has 3 types
+
+1 . var - var has a gloabl variable and we can rediclear and reinitialized to our var variable
+
+eg -- var a=20 
+      var a=30
+
+2 . Let - Let has a local variable and we can not rediclear but we can reinitialized to our var variable
+
+
+eg -- let a=20 
+          a=30
+
+3 . const - const has a constant variable and we can not rediclear but we can not reinitialized to our var variable
+
+eg -- const a=20 
+      
+
+function-------------
+
+function is block of code.
+In java script function has 3 types
+
+1. Nameing function  syntax : funciton name(){}
+2. Anyonamous function  (This function has not need to calling but need to return value)  syntax : function(){}
+3. Arrow function   (This funciton has not need to calling and not need to )  syntax : ()=>
+
+
+Array Methods-----------------
+
+map() --  map create a new array from calling a function for every array element. map() calls a funciton once for each element in an array . map()
+
+
+
+string methods----------------
+
+.replace("oldvalue","newvalue")
+.touppercase()
+.tolowercase()
+.trim()   if you want remove space in your string at the time u use trim method
+${a},${b}
+
