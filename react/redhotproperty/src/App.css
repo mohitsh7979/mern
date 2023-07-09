@@ -1,0 +1,54 @@
+.outer{
+
+  height: 500vh;
+}
+
+.container{
+
+  border: 2px solid black;
+  height: 90vh;
+  background: url(/home/mohit/Downloads/WhatsApp.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100vw;
+
+}
+
+.header{
+
+    border: 2px solid black;
+    height: 15vh;
+    display: flex;
+    position: sticky;
+    top: 0px;
+}
+
+.logo-image{
+
+  border: 2px solid black;
+  margin: 2px;
+  height: 100%;
+  width: 20%;
+
+}
+
+.menu{
+
+  border: 2px solid black;
+  margin: 2px;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  
+
+}
+
+.menu a{
+
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  margin: 10px;
+}

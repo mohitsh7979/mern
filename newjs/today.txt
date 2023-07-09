@@ -1,0 +1,12 @@
+array 
+method of array push,pop,shift,unshift,map,filter,reduce,slice,splice
+backtiks
+string method
+setinterval
+clearinterval
+settimeout
+again function
+object
+array of object,string of object
+and realated questions
+

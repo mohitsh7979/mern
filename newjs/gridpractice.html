@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1fr 1fr 2fr; 
+          /*  grid-template-columns: repeat(5,1fr);
+            grid-gap: 50px;  */
+
+            grid-template-rows: 1fr 3fr 1fr;
+
+            
+          
+
+        }
+
+        .item{
+
+            background-color: brown;
+      ;
+            margin: 10px;
+
+            border-radius: 50px;
+
+            box-shadow:  inset 10px 10px 30px white,6px 10px 50px rgb(81, 81, 164);
+           
+        }
+
+        #item-1{
+
+            grid-column-start: 1;
+            grid-column-end: 4;
+
+        }
+
+
+        .inner-item{
+
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            margin: 5px;
+            position: absolute;
+            margin-left: 50px;
+        }
+
+        #inner-item-1{
+
+            z-index: 1;
+        }
+
+        #inner-item-2{
+          
+            background-color: black;
+            top: 100px;
+            z-index: 2;
+
+        }
+        #inner-item-3{
+          
+            background-color: blueviolet;
+            top: 250px;
+            z-index: 2;
+            
+        }
+        #inner-item-4{
+            
+            background-color: orangered;
+            right: 530px;
+            z-index: 1;
+            
+        }
+   
+
+
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <p></p>
+        <div class="item" id="item-1"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item">
+            <div class="inner-item" id="inner-item-1"></div>
+            <div class="inner-item" id="inner-item-2"></div>
+            <div class="inner-item" id="inner-item-3"></div>
+            <div class="inner-item" id="inner-item-4"></div>
+        </div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+  
+        <!-- <div class="item"></div> -->
+    </div>
+</body>
+</html>

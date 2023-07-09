@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+        }
+
+        .box{
+
+            width: 30%;
+            height: 70%;
+            border: 2px solid black;
+            margin: 5px;
+            box-shadow:  12px 22px 200px green , 5px 7px 80px red;
+        }
+        
+        #box-1{
+
+            height: 70%;
+            border: 2px dashed black;
+        }
+
+        #box-2{
+
+            height: 10%;
+            border: 2px dashed green;
+        }
+
+        #box-3{
+
+            height: 18%;
+            border: 2px dashed red;
+        }
+
+        .inner-box{
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .my-box{
+              
+           width: 60%;
+           
+        }
+
+        #my-box-1{
+              
+            height: 10%;
+            border: 2px solid black;
+        }
+
+        #my-box-2{
+                height: 60%;
+                border: 2px solid red;
+        }
+
+        #my-box-3{
+
+               height: 28%;
+               border: 2px solid green;
+        }
+
+        .my-container{
+
+            border: 2px solid black;
+            padding: 25px;
+            background-color: yellow;
+        }
+
+
+        p{
+
+            font-size: 25px;
+            word-spacing: 5px;
+            letter-spacing: 2px;
+            text-align: justify;
+            line-height: 70px;
+            margin: 5px;
+            text-shadow: 2px 2px 2px red , 2px 2px 2px green;
+        }
+
+        .my{
+
+              border: 2px solid black;
+              height: 200px;
+              width: 200px;
+              display: inline-block;
+              margin-top: 25px;
+              background-color: green;
+              position: absolute;
+        }
+
+        #a{
+
+                 left: 80px;
+                 background-color: brown;
+                 z-index: 3;
+        }
+
+        #b{
+
+            bottom: 100px;
+            left: 50px;
+            z-index: 2;
+        }
+
+        #c{
+
+            top:500px;
+            background-color: yellow;
+            z-index: 1;
+        }
+
+
+        @media (max-width:736px){
+
+                 #image-box{
+
+                    display: none;
+                 }
+        }
+
+
+   
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box" id="image-box"></div>
+        <div class="box">
+            <div class="inner-box" id="box-1">
+                <div class="my-box" id="my-box-1"></div>
+                <div class="my-box" id="my-box-2">
+                    <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aHVtYW58ZW58MHx8MHx8fDA%3D&w=1000&q=80" alt="" width="100%" height="100%">
+                </div>
+                <div class="my-box" id="my-box-3"></div>
+            </div>
+            <div class="inner-box" id="box-2"></div>
+            <div class="inner-box" id="box-3"></div>
+        </div>
+    </div> 
+
+
+ <!-- <div class="my-container">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit iusto, aliquam culpa quas in harum voluptatem ratione. Dicta assumenda sequi odit dolor aperiam illo officia magnam ad praesentium, quibusdam rem laboriosam culpa obcaecati molestiae fuga maiores suscipit hic ex minus quo corrupti. Iure illum reiciendis minima? Tempora eveniet culpa quo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam alias est laudantium non deserunt veritatis porro, nisi ipsum, officia quidem eveniet itaque laborum expedita rerum consequuntur voluptates tenetur quos cumque doloribus illum eos. Veniam ab, maiores rem voluptate consequatur sed, magnam aliquam id autem debitis sint accusamus molestias labore molestiae.
+        </p>
+    </div>
+
+
+    <div class="my" id="a"></div>
+    <div class="my" id="b"></div>
+    <div class="my" id="c"></div>
+     -->
+</body>
+</html>

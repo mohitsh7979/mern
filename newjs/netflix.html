@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Netflix Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .signup-form {
+            width: 400px;
+            padding: 40px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        
+        .signup-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .signup-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        .signup-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #e50914;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        .signup-form button:hover {
+            background-color: #b2070a;
+        }
+        
+        .signup-form .terms {
+            font-size: 12px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form class="signup-form">
+            <h2>Create your Netflix Account</h2>
+            <input type="text" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button type="submit">Sign Up</button>
+            <p class="terms">By clicking Sign Up, you agree to our <a href="#">Terms of Use</a> and <a href="#">Privacy
+                    Policy</a>.</p>
+        </form>
+    </div>
+</body>
+
+</html>
