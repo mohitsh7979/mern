@@ -1,0 +1,127 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+
+    height: 100vh;
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+
+.box{
+
+    height: 100%;
+    /* border: 2px solid black; */
+    margin: 2px;
+    
+}
+
+#box-1{
+
+    width: 25%;
+    border: 2px solid black;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+#box-2{
+
+    width: 74%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.header{
+
+    border: 2px solid red;
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    
+    border: 2px solid black;
+    
+}
+
+.icon{
+
+    border: 2px solid black;
+}
+
+.image{
+
+    border: 2px solid green;
+    height: 70%;
+}
+
+.products{
+
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 2px solid yellow;
+}
+
+.product-image{
+
+    height: 45%;
+    width: 20%;
+    border: 2px solid red;
+}
+
+.subscribe{
+
+    height: 30%;
+    border: 2px solid green;
+}
+
+.contact{
+
+    height: 70%;
+    border: 2px solid orange;
+   
+}
+
+.contact-box{
+
+    border: 2px dashed black;
+}
+
+
+
+#contact-box-1{
+
+    height: 75%;
+    display: flex;
+
+}
+
+.inner-box{
+
+    background-color: yellow;
+    margin: 2px;
+}
+
+#inner-box-1{
+
+    width: 40%;
+}
+
+#inner-box-2{
+
+    width: 60%;
+}
+
+#contact-box-2{
+
+    height: 20%;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+
+            background-color: black;
+        }
+
+
+
+        .box{
+
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            animation-name: mohit;
+            animation-duration: 5s;
+            animation-iteration-count:3;
+            position: absolute;
+        }
+
+
+        @keyframes mohit{
+
+            /*from{
+
+                width: 40px;
+                height: 40px;
+                border: 1px solid red;
+                background-color: green;
+
+            }
+
+            to{
+
+                width: 1000px;
+                height: 500px;
+                border: 20px dashed blue;
+                background-color: yellow;
+            }  */
+
+          0%{
+
+            
+                background-color: green;
+                left: 0;
+                top: 0;
+                width: 200px;
+                height: 40px;
+            }
+
+            25%{
+
+               
+                background-color: yellow;
+                left: 700px;
+                top: 0;
+                width: 800px;
+                border: 1px solid green;
+               /* height: 800px; */
+
+            }
+
+            50%{
+
+               
+                background-color: brown;
+                left: 0;
+                top: 0;
+                border: 8px dashed yellow;
+            }
+
+            75%{
+
+              
+                background-color: blue;
+                left: 700px;
+                top:0px;
+                border: 2px solid pink;
+            }
+
+            100%{
+
+          
+                background-color: aqua;
+                top: 500px;
+                left: 700px;
+                border: 10px dashed yellow;
+            } 
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="box"></div>
+    
+</body>
+</html>
