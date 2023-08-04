@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .box{
+
+            height: 200px;
+            width: 200px;
+            background-color:black;
+
+            animation-name: mohit;
+            animation-duration: 8s;
+            animation-iteration-count: 3;
+            position:relative;
+            left: 200px;
+            top: 80px;
+            cursor: pointer;
+           /* transition-property: background-color,font-size,height,width,border-radius,text-align;
+            transition-duration: 3s; */ 
+            transition: all 1s ease-in-out;
+
+
+           
+
+
+        }
+
+        .box:hover{
+            
+            transform: rotate(360deg);
+            transform: skewX(90deg);
+            transform: scale(2);
+            transform: translateX(100px);
+            transform: translateY(-100px);
+            transform: skew(90deg);
+            transform: skew(45deg,90deg);
+            /*background-color: red;
+            font-size: 50px;
+            height: 200px;
+            width: 100%;
+            border-radius: 200px;
+            text-align: center;*/
+        }
+
+      /*  @keyframes mohit {
+          from{
+               
+                width: 200px;
+                background-color: red;
+                border: 2px solid black;
+                border-radius: 2px;
+            }        
+            to{
+               
+                width: 500px;
+                background-color: green;
+                border: 2px dashed red;
+                border-radius: 50px;
+            } 
+
+            0%{
+
+                left: 0;
+                top: 0;
+
+            }
+
+            25%{
+
+                left: 200px;
+                top: 0;
+                background-color: rebeccapurple;
+                color: yellow;
+
+            }
+
+            50%{
+
+                top: 200px;
+                left: 200px;
+                background-color: green;
+                color: pink;
+                
+            }
+
+            75%{
+
+                top: 200px;
+                left: 0;
+                background-color: yellow;
+                color: bisque;
+
+            }
+
+            100%{
+
+                left: 0;
+                top: 0;
+                background-color: orangered;
+                color: azure;
+
+            }
+        } */
+
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h1>Mohit</h1>
+    </div>
+    
+</body>
+</html>
