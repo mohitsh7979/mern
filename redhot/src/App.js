@@ -13,8 +13,8 @@ function App() {
       
     <>
     
-    <Header />
     <Home/>
+    <Header />
     <Property/>
     <Contact/>
     <Aboutdubai/>
